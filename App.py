@@ -106,8 +106,7 @@ col1, col2 = st.columns([1,1], gap="large")
 # CANVAS
 # ─────────────────────────────────────────────
 with col1:
-    st.markdown('<div class="section-card">', unsafe_allow_html=True)
-
+    
     st.markdown("### ✏️ Dibuja tu número")
 
     stroke_width = st.slider('Grosor del trazo', 1, 30, 15)
@@ -128,8 +127,7 @@ with col1:
 # RESULTADO
 # ─────────────────────────────────────────────
 with col2:
-    st.markdown('<div class="section-card">', unsafe_allow_html=True)
-
+    
     st.markdown("### 🤖 Predicción")
 
     if st.button("PREDECIR ↗"):
